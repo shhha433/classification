@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+._*
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 与本项目无关的数据（下载自教程 data.zip，但本任务不使用）
+data/eng-fra.txt
+
+# 临时文件
+.Rhistory
+report/code_listings/
+
+# 仅本地提交，不推送
+姓名国籍分类_报告.pdf
+姓名国籍分类_报告_终稿.pdf
+实验记录表.xlsx
+同伴互评意见与修改说明.docx

@@ -1,0 +1,9 @@
+round,tag,cell,cell2,combine,hidden,mid_size,layers,lr,epochs,batch_size,seed,dropout,attention,aug,scheduler,params,train_time_s,best_val_acc,test_acc,test_macro_f1,note
+2,GRU_lr0.2_ep10_bs64_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.2,10,64,2026,0,False,0,none,64530,117.1,0.7884,0.7875,0.4126,carry-over from round 1
+2,GRU_lr0.1_ep10_bs64_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.1,10,64,2026,0,False,0,none,64530,114.1,0.7526,0.7576,0.3423,
+2,GRU_lr0.05_ep10_bs64_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.05,10,64,2026,0,False,0,none,64530,105.8,0.7144,0.7311,0.3028,
+2,GRU_lr0.2_ep20_bs64_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.2,20,64,2026,0,False,0,none,64530,233.2,0.7944,0.7981,0.4774,
+2,GRU_lr0.2_ep30_bs64_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.2,30,64,2026,0,False,0,none,64530,351.7,0.7981,0.7942,0.4715,
+2,GRU_lr0.2_ep10_bs128_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.2,10,128,2026,0,False,0,none,64530,117.5,0.7586,0.759,0.3589,
+2,GRU_lr0.2_ep10_bs32_h128_mid0_l1,GRU,GRU,FALSE,128,0,1,0.2,10,32,2026,0,False,0,none,64530,106.8,0.7918,0.7961,0.4646,
+2,GRU_lr0.2_ep30_bs64_h128_mid0_l1_schstep,GRU,GRU,False,128,0,1,0.2,30,64,2026,0,False,0,step,64530,,0.7997,0.8011,0.4494,
